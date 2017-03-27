@@ -13,7 +13,7 @@ We'll cover basic aggregate functions and how to write SQL queries that utilize 
 
 Imagine writing an application for a restaurant owner to track her customers and transactions, or an app that an e-commerce company uses to store users, transactions and shopping behaviors. Think about creating a social networking application whose administrators want to keep track of the number of times a user logs on and identify who their most frequent users are. It's easy to see that storing or persisting information in an application or program is about more than just keeping track of static data. We can imagine any number of situations in which we want to operate on or analyze the data we store. Our restaurant owner will want to discover who her biggest spenders are or what they make on average over a busy weekend. Our e-commerce company wants to know who their most frequent buyers are and how much they spend on average on a given item, and so on. 
 
-We can do so using the aggregate functions that SQL makes available to us. With these functions we can sum and average column data, request minimum and maximum values, and more. SQL also makes available to use keywords that allow us to group aggregated data by various categories and narrow our search criteria based on various conditions. 
+We can do so using the aggregate functions that SQL makes available to us. With these functions we can sum and average column data, request minimum and maximum values, and more. SQL also makes available to us keywords that allow us to group aggregated data by various categories and narrow our search criteria based on various conditions. 
 
 ## Aggregate Functions
 
@@ -103,6 +103,8 @@ AVG(net_worth)
 ---------------
 800850.0 
 ```
+
+**NOTE:** If you don't have the header or line underneath it remember how we enabled those previously.
 
 That return value is a little ugly, however. Let's use the `AS` keyword to rename the column. This is called "aliasing the return value".
 
